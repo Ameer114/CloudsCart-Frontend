@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import heroimage from "../../Assets/iphone-14-pro.webp";
+import heroimage from "../../assets/iphone-14-pro.webp";
 import axios from "axios";
 import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/ti";
