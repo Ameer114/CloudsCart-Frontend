@@ -38,7 +38,7 @@ const Home = () => {
           <p className="font-light text-lg md:text-2xl my-4">
             Experience the power of the latest iPhone 14 with our most Pro camera ever.
           </p>
-          <a href="http://localhost:5173/product/68dfdcf61edeea124cc09d7d">
+          <a href="https://cloudscart.netlify.app/product/68dfdcf61edeea124cc09d7d">
             <button className="bg-white transition-all text-black py-2 px-5 rounded-3xl hover:border-2 hover:border-white hover:bg-black hover:text-white cursor-pointer font-bold text-lg md:text-xl">
               BUY NOW
             </button>
@@ -61,7 +61,7 @@ const Home = () => {
         {products && (
           <div className="products grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center mt-10">
             {[0, 5, 2].map((i) => (
-              <a key={products[i]._id} href={`http://localhost:5173/product/${products[i]._id}`}>
+              <a key={products[i]._id} href={`https://cloudscart.netlify.app/product/${products[i]._id}`}>
                 <div className="product-card w-[250px] h-[320px] bg-gray-200 flex flex-col justify-center items-center rounded-lg hover:scale-[1.05] transition-all cursor-pointer">
                   <img
                     src={`${products[i].images}`}
@@ -95,7 +95,7 @@ const Home = () => {
             The Fitbit Sense is a health-focused smartwatch with fitness tracking,
             heart rate monitoring, and an EDA sensor.
           </p>
-          <a href="http://localhost:5173/product/68dfe09f1edeea124cc09d9b">
+          <a href="https://cloudscart.netlify.app/product/68dfe09f1edeea124cc09d9b">
             <button className="bg-white transition-all text-black py-2 px-5 rounded-3xl hover:border-2 hover:border-white hover:bg-black hover:text-white cursor-pointer font-bold text-lg md:text-xl">
               BUY NOW
             </button>
