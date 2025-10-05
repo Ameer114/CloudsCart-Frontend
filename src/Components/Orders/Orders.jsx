@@ -89,13 +89,13 @@ useEffect(() => {
                 >
                   <h3 style={{ margin: "0 0 4px 0" }}>{item.title}</h3>
                   <p style={{ margin: 0 }}>Quantity: {item.quantity}</p>
-                  <p style={{ margin: 0 }}>Price: ₹{item.price}</p>
+                  <p style={{ margin: 0 }}>Price: $ {item.price}</p>
                 </div>
               ))}
             </div>
 
             <div style={{ marginTop: "10px" }}>
-              <strong>Total: ₹{order.totalPrice}</strong>
+              <strong>Total: $ {order.totalPrice}</strong>
               <p>Status: {order.paymentStatus}</p>
               <p>Delivery Status: {order.orderStatus}</p>
             </div>
