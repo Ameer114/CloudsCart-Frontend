@@ -123,7 +123,7 @@ navigate(`/product/${id}`)
 
   return (
     <div className='flex'>
-      {loading && <p>Loading more...</p>}
+     
       {error && <p style={{color:"red"}}>Error fetching products</p>}
       <Category/>
       {products&&(
@@ -152,12 +152,12 @@ navigate(`/product/${id}`)
       </div>
     </div>
   ))}
+           {loading && <p>Loading more...</p>}
 
   {/* move sentinel inside the scrollable container */}
   <div ref={sentinelRef} style={{ height: 1, width: '100%' }} />
 </div>
-
-        </>)
+</>)
       }
         
     </div>
